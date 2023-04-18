@@ -28,7 +28,7 @@ DEVICE_ID_B = 9 * 10**10
 
 
 def _device_id() -> int:
-    return randint(DEVICE_ID_A, DEVICE_ID_A)
+    return randint(DEVICE_ID_A, DEVICE_ID_B)
 
 
 class Parser(BaseParser):
